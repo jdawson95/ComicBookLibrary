@@ -11,7 +11,7 @@ namespace ComicBookLibraryManagerWebApp.ViewModels
     /// <summary>
     /// View model for the "Edit Comic Book" view.
     /// </summary>
-    public class ComicBooksEditViewModel 
+    public class ComicBooksEditViewModel
         : ComicBooksBaseViewModel
     {
         /// <summary>
