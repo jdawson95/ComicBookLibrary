@@ -63,12 +63,6 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ComicBookShared\ComicBookShared.csproj">
-      <Project>{3d3a9189-3661-409e-b3dc-0a5f22742822}</Project>
-      <Name>ComicBookShared</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

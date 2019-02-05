@@ -8,7 +8,7 @@ namespace ComicBookShared.Data
     /// Custom database initializer class used to populate
     /// the database with seed data.
     /// </summary>
-    internal class DatabaseInitializer : DropCreateDatabaseIfModelChanges<Context>
+    public class DatabaseInitializer : DropCreateDatabaseIfModelChanges<Context>
     {
         protected override void Seed(Context context)
         {
